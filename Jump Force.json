@@ -1447,7 +1447,26 @@
     {
       "associatedLayout": "Map",
       "name": "ExternalEvents",
-      "events": []
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "LightPlayer",
+                "=",
+                "Player.X()",
+                "=",
+                "Player.Y()"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "eventsFunctionsExtensions": [],
