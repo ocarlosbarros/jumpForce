@@ -149,7 +149,7 @@
         "alwaysLoaded": false,
         "file": "assets/Player.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Player.png\",\"extension\":\".png\"}",
         "name": "assets\\Player.png",
         "smoothed": true,
         "userAdded": false
@@ -169,6 +169,60 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Box",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flag.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Flag",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flag2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Flag2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flag3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Flag3.png\"}",
+        "name": "Flag3",
         "smoothed": true,
         "userAdded": false
       }
@@ -667,7 +721,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.367325754505882,
+        "zoomFactor": 0.5468750000000001,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -766,8 +820,8 @@
           "name": "Box",
           "persistentUuid": "45cc30c0-bacd-4f9a-b8be-2250c00c8ef9",
           "width": 0,
-          "x": 288,
-          "y": 528,
+          "x": 312,
+          "y": 552,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -782,8 +836,8 @@
           "name": "Box",
           "persistentUuid": "82899124-2bf1-43e6-92c3-3002dd907260",
           "width": 0,
-          "x": 240,
-          "y": 528,
+          "x": 264,
+          "y": 552,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -798,8 +852,8 @@
           "name": "Box",
           "persistentUuid": "78e5d103-b611-42bb-aadd-35f0b3478f07",
           "width": 0,
-          "x": 336,
-          "y": 528,
+          "x": 360,
+          "y": 552,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -814,8 +868,8 @@
           "name": "Box",
           "persistentUuid": "c5434cb5-51da-4eae-a924-99d061bbba4f",
           "width": 0,
-          "x": 288,
-          "y": 480,
+          "x": 312,
+          "y": 504,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -830,8 +884,8 @@
           "name": "Box",
           "persistentUuid": "11809adc-a1bf-451e-887b-e399594120b9",
           "width": 0,
-          "x": 480,
-          "y": 192,
+          "x": 504,
+          "y": 216,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -846,8 +900,8 @@
           "name": "Box",
           "persistentUuid": "402b794f-e0fc-42f9-8414-646fdf51fc74",
           "width": 0,
-          "x": 864,
-          "y": 480,
+          "x": 888,
+          "y": 504,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -862,8 +916,8 @@
           "name": "Box",
           "persistentUuid": "2eefe3b8-bd16-4ac0-8e63-cc9e11158614",
           "width": 0,
-          "x": 864,
-          "y": 432,
+          "x": 888,
+          "y": 456,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -897,6 +951,22 @@
           "x": 248,
           "y": -232,
           "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Flag",
+          "persistentUuid": "7f1e24aa-d930-464f-95ae-3a5841d0daf6",
+          "width": 0,
+          "x": 456,
+          "y": 120,
+          "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1034,7 +1104,7 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
@@ -1044,14 +1114,122 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 24,
+                        "y": 24
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 24,
+                        "y": 24
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 48
+                          },
+                          {
+                            "x": 0,
+                            "y": 48
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Player5",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 24,
+                        "y": 24
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 24,
+                        "y": 24
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 48
+                          },
+                          {
+                            "x": 0,
+                            "y": 48
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Player6",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 24,
+                        "y": 24
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 24,
+                        "y": 24
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 48
+                          },
+                          {
+                            "x": 0,
+                            "y": 48
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Player7",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 24,
+                        "y": 24
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 24,
+                        "y": 24
                       },
                       "customCollisionMask": [
                         [
@@ -1138,14 +1316,14 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 24,
+                        "y": 24
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 24,
+                        "y": 24
                       },
                       "customCollisionMask": [
                         [
@@ -1201,6 +1379,67 @@
             "debugMode": false,
             "texture": ""
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Flag",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Flag",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Flag3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 24,
+                        "y": 24
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 24,
+                        "y": 24
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 48
+                          },
+                          {
+                            "x": 7,
+                            "y": 48
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -1211,6 +1450,9 @@
           },
           {
             "objectName": "Player"
+          },
+          {
+            "objectName": "Flag"
           },
           {
             "objectName": "Box"
@@ -1462,6 +1704,36 @@
                 "Player.X()",
                 "=",
                 "Player.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Lighting::SetRadius"
+              },
+              "parameters": [
+                "LightPlayer",
+                "RandomInRange(100, 200)"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "LightFlag",
+                "=",
+                "Flag.X()",
+                "=",
+                "Flag.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Lighting::SetRadius"
+              },
+              "parameters": [
+                "LightFlag",
+                "RandomInRange(100, 200)"
               ]
             }
           ]
