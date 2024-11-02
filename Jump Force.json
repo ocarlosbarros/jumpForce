@@ -667,7 +667,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.546875,
+        "zoomFactor": 0.367325754505882,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -750,8 +750,8 @@
           "name": "Player",
           "persistentUuid": "574ba11e-1512-48b9-a4f1-492689f72264",
           "width": 0,
-          "x": 960,
-          "y": 288,
+          "x": 1008,
+          "y": 480,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -868,6 +868,38 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Lighting",
+          "name": "LightPlayer",
+          "persistentUuid": "4c9e04cb-3fd6-4c75-9673-8eef06eff7e9",
+          "width": 0,
+          "x": 968,
+          "y": -232,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Lighting",
+          "name": "LightFlag",
+          "persistentUuid": "f8bf0c75-c475-49a8-857a-3ec24856a913",
+          "width": 0,
+          "x": 248,
+          "y": -232,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -880,6 +912,10 @@
           "variables": [],
           "effects": [],
           "behaviors": [
+            {
+              "name": "LightObstacleBehavior",
+              "type": "Lighting::LightObstacleBehavior"
+            },
             {
               "name": "Physics2",
               "type": "Physics2::Physics2Behavior",
@@ -1059,6 +1095,10 @@
               "type": "DestroyOutsideBehavior::DestroyOutside"
             },
             {
+              "name": "LightObstacleBehavior",
+              "type": "Lighting::LightObstacleBehavior"
+            },
+            {
               "name": "Physics2",
               "type": "Physics2::Physics2Behavior",
               "bodyType": "Dynamic",
@@ -1196,16 +1236,7 @@
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlayerAuthentication::DisplayAuthenticationBanner"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ]
+          "actions": []
         }
       ],
       "layers": [
@@ -1254,9 +1285,9 @@
           ]
         },
         {
-          "ambientLightColorB": 128,
-          "ambientLightColorG": 128,
-          "ambientLightColorR": 128,
+          "ambientLightColorB": 41,
+          "ambientLightColorG": 41,
+          "ambientLightColorR": 41,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -1283,6 +1314,10 @@
         {
           "name": "Flippable",
           "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "LightObstacleBehavior",
+          "type": "Lighting::LightObstacleBehavior"
         },
         {
           "name": "Opacity",
