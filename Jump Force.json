@@ -1133,6 +1133,34 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "LightPlayer",
+          "type": "Lighting::LightObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "radius": 200,
+            "color": "255;255;255",
+            "debugMode": false,
+            "texture": ""
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "LightFlag",
+          "type": "Lighting::LightObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "radius": 200,
+            "color": "255;255;255",
+            "debugMode": false,
+            "texture": ""
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -1146,6 +1174,12 @@
           },
           {
             "objectName": "Box"
+          },
+          {
+            "objectName": "LightPlayer"
+          },
+          {
+            "objectName": "LightFlag"
           }
         ]
       },
@@ -1218,6 +1252,23 @@
               "booleanParameters": {}
             }
           ]
+        },
+        {
+          "ambientLightColorB": 128,
+          "ambientLightColorG": 128,
+          "ambientLightColorR": 128,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": true,
+          "isLightingLayer": true,
+          "isLocked": false,
+          "name": "Lighting",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
         }
       ],
       "behaviorsSharedData": [
